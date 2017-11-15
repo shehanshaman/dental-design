@@ -1,0 +1,26 @@
+.container{
+	margin-top: 50px;
+	font-size: 25px;
+	color:#00FF00 ;
+}
+
+.form-control{
+    padding: 12px 20px;
+    border: 2px solid #00FF00;
+    border-radius: 4px;
+    resize: none;
+}
+
+.row{
+	padding: 10px;
+}
+
+#last_text_box{
+	height: 200px;
+}
+
+.btn:hover{
+	background-color: white;
+	color: #00FF00;
+}
+
