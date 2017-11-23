@@ -1,0 +1,58 @@
+.container{
+	padding: 40px;
+	font-size: 20px;
+	font-weight: bold;
+	background-color: #e5e5e5;
+}
+
+.container div{
+	padding: 5px;
+}
+
+.left{
+	border-right: 4px solid brown;
+}
+
+.form-control{
+	width: 300px;
+	height: 150px;
+}
+
+input[type="checkbox"]{
+  width: 20px; 
+  height: 20px; 
+}
+
+.row1{
+	margin: 5px;
+	background-color: #b8efd7;
+	height: 180px;
+}
+
+.row2{
+	margin: 5px;
+	background-color: #efe0b1;
+	height: 150px;
+}
+.row3{
+	margin: 5px;
+	background-color: #cdedf4;
+	height: 150px;
+}
+.row4{
+	margin: 5px;
+	background-color: #cdedf4;
+	height: 100px;
+}
+.row5{
+	margin: 5px;
+	background-color: #efb1b1;
+	height: 50px;
+}
+.row6{
+	margin: 5px;
+	background-color: #b8efd7;
+	height: 230px;
+}
+
+
