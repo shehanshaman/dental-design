@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Learning bootsrap</title>
+	
+	<!--<link href="css/bootstrap.min.css" rel="stylesheet">
+	<link href="css/bootstrap-grid.min.css" rel="stylesheet">
+	<link href="css/bootstrap-reboot.min.css" rel="stylesheet">-->
+
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+  	<style>
+  		#Lbl{
+  			font-size: 18px;
+  		}
+		.btn-success{
+			padding: 10px 1px;
+			text-align: center;
+			white-space: normal;
+			font-size: 16px;
+		}
+		#dark{
+			background-color: #83b57c96;
+		}
+		.container{
+			background-color: #509800;
+		}
+		
+		.checkbox1{
+			zoom:1.5;
+		}
+
+  	</style>
+
+</head>
+<body>
+
+	<div class="container">
+
+	<!--	<nav class="navbar navbar-justified">
+				
+					<ul class="nav navbar-nav">
+						<li><a href="#">Past Dental History</a></li>
+						<li><a href="#">Medical Record</a></li>
+						<li><a href="#">Drug History</a></li>
+						<li><a href="#">Investigations</a></li>
+						<li><a href="#">Habits</a></li>
+						<li><a href="#">Plague Control & Brushing Habits</a></li>
+						<li><a href="#">Diatary History</a></li>
+						<li><a href="#">Hard Tissue Examination</a></li>
+						<li><a href="#">Occlusial Relationship</a></li>
+						<li><a href="#">Treatment Plan</a></li>
+					</ul>
+			   
+
+		</nav>-->
+
+
+		<div class="row" id="dark">
+
+			<div class="col-lg-4 col-lg-offset-2 col-sm-4 col-sm-offset-2">
+				<h2>Developmental</h2>
+			</div>
+			<div class="col-lg-5 col-lg-offset-1 col-sm-5 col-sm-offset-1">
+
+				<div class="checkbox">
+  					<label id="Lbl"><input type="checkbox" class="checkbox1">Cleft Lip/Palate</label>
+				</div>
+				<div class="checkbox">
+  					<label id="Lbl"><input type="checkbox" class="checkbox1">Cerebral Palsy</label>
+				</div>
+				<div class="checkbox">
+  					<label id="Lbl"><input type="checkbox" class="checkbox1">Syndromic</label>
+				</div>
+			</div>
+			
+		</div><!--row-->
+
+		<div class="row" id="light">
+			<div class="col-lg-4 col-lg-offset-2 col-sm-4 col-sm-offset-2">
+				<h2>Epilepsy</h2>
+			</div>
+		</div>
+
+		<div class="row" id="dark">
+
+			<div class="col-lg-4 col-lg-offset-2 col-sm-4 col-sm-offset-2">
+				<h2>Endocrine</h2>
+			</div>
+			<div class="col-lg-5 col-lg-offset-1 col-sm-5 col-sm-offset-1">
+
+				<div class="checkbox">
+  					<label id="Lbl"><input type="checkbox" class="checkbox1">Diabetes</label>
+				</div>
+				<div class="checkbox">
+  					<label id="Lbl"><input type="checkbox" class="checkbox1">Hypothyroidism</label>
+				</div>
+				<div class="checkbox">
+  					<label id="Lbl"><input type="checkbox" class="checkbox1">Hyperthyroidism</label>
+				</div>
+				<div class="form-group">
+  					<label id="Lbl"><textarea class="form-control" rows="3" id="textarea1"></textarea>Other</label>
+				</div>
+			</div>
+			
+		</div><!--row-->
+			
+
+		<div class="row" id="light">
+
+			<div class="col-lg-4 col-lg-offset-2 col-sm-4 col-sm-offset-2">
+				<h2>Gastro-intestinal</h2>
+			</div>
+			<div class="col-lg-5 col-lg-offset-1 col-sm-5 col-sm-offset-1">
+
+				<div class="checkbox">
+  					<label id="Lbl"><input type="checkbox" class="checkbox1">Ulcers</label>
+				</div>
+				<div class="checkbox">
+  					<label id="Lbl"><input type="checkbox" class="checkbox1">Gastric reflux</label>
+				</div>
+				<div class="form-group">
+  					<label id="Lbl"><textarea class="form-control" rows="3" id="textarea1"></textarea>Other</label>
+				</div>
+			</div>
+
+			<div class="col-sm-6"><button style="width: 250px; height: 50px;" class="btn btn-success">Back</button></div>
+			<div class="col-sm-6"><button style="width: 250px; height: 50px; float: right;" class="btn btn-success" >Next</button></div>
+			
+		</div><!--row-->
+
+	</div><!--Container-->
+
+</body>
+</html>
